@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Bree Serif', serif;
+  color: #fff;
+  background-color: #2779a7;
+
+}
+.coin-app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  gap: 10px;
+}
+.coin-search{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coin-text{
+  margin-bottom: 32px;
+  text-align: center;
+}
+.coin-input{
+  padding-left: 16px;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  
+  appearance: none;
+	border: none;
+	outline: none;
+	border: .2em solid #12486B;
+	background: rgba(#12486B, .2);
+	border-radius: .2em .2em 0 0;
+	padding: .4em;
+	color: #12486B;
+  z-index: 99;
+
+ 
+color: #e2e2e2;
+}
+.coin-input::placeholder{
+  color: #e2e2e2;
+}
+.neonText {
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #B6FFFA,
+    0 0 92px #B6FFFA,
+    0 0 102px #B6FFFA,
+    0 0 151px #B6FFFA;
+}
+  
+ 
+
+h1, h2 {
+  text-align: center;
+  font-weight: 400;
+}
+  
+h1 {
+  font-size: 3rem;
+  font-weight: 100px;
+  /* word-spacing: 20px; */
+  letter-spacing: 10px;
+  margin: 20px 0px;
+  animation: pulsate 1.5s infinite alternate;  
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 0.4em;
+  box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #B6FFFA,
+            0 0 0.8rem #B6FFFA,
+            0 0 2.8rem #B6FFFA,
+            inset 0 0 1.3rem #B6FFFA; 
+}
+
+@keyframes pulsate {
+    
+  100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #B6FFFA,
+      0 0 80px #B6FFFA,
+      0 0 90px #B6FFFA,
+      0 0 100px #B6FFFA,
+      0 0 150px #B6FFFA;
+  
+  }
+  
+  0% {
+
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #B6FFFA,
+    0 0 45px #B6FFFA,
+    0 0 55px #B6FFFA,
+    0 0 70px #B6FFFA,
+    0 0 80px #B6FFFA;
+
+}}
